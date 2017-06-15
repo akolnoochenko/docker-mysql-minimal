@@ -29,3 +29,6 @@ binlog_stmt_cache_size=4K
 
 #largest impact (50% memory)
 performance_schema=off
+
+# never expire password
+default_password_lifetime=0
